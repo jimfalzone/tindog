@@ -19,6 +19,7 @@
       #title h1 {
         font-weight: bold;
         font-size: 310%;
+        margin-bottom: 40px; /* Add vertical spacing */
       }
 
       /* Custom button styles */
@@ -30,6 +31,12 @@
       .custom-secondary-btn {
         background-color: #5CABDE;
         color: #fff;
+      }
+
+      /* Add space between button icons and text */
+      .custom-primary-btn i,
+      .custom-secondary-btn i {
+        margin-right: 0.5em;
       }
     </style>
   </head>
@@ -55,13 +62,13 @@
                   class="d-inline-flex align-items-center btn custom-primary-btn btn-lg px-4 rounded-pill"
                   type="button"
                 >
-                  Download
+                  <i class="fab fa-apple"></i> Download
                 </button>
                 <button
                   class="btn custom-secondary-btn btn-lg px-4 rounded-pill"
                   type="button"
                 >
-                  Download
+                  <i class="fab fa-android"></i> Download
                 </button>
               </div>
             </div>
@@ -80,5 +87,8 @@
     <section id="pricing"></section>
     <!-- Footer -->
     <section id="footer"></section>
+
+    <script src="https://kit.fontawesome.com/8cea06a873.js" crossorigin="anonymous"></script>
+
   </body>
 </html>
