@@ -79,3 +79,10 @@ $29/mo
 Pirority Listing
 Unlimited Matches & Messages
 Unlimited App Usage
+
+Colors:
+blue: #5CABDE
+green: #86CDB0
+purple: #875CA6
+amber: #F3CF73
+red: #EC5E6D
