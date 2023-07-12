@@ -42,6 +42,33 @@
       .bg-custom-color {
         background-color: #F8F9FA; /* Replace #ff0000 with your desired color */
       }
+
+      body{padding:50px;}
+
+    .inner-item{
+      position:relative;
+      margin:100px 20px 20px;
+      border-radius:20px;
+    }
+
+    .carousel-item img{
+      width:150px;
+      border-radius:50%;
+      position:absolute;
+      top:-75px; left:50%;
+      transform:translateX(-50%);
+      z-index:1;
+    }
+
+    .carousel-caption{
+      position:relative;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      padding:100px 20px;
+    }
+
     </style>
   </head>
 
@@ -172,8 +199,21 @@
       </div>
     </section>
 
+
+
     <!-- Testimonial -->
-    <section id="testimonial"></section>
+    <section id="testimonial">
+      <div class="carousel-item active mt-5">
+        <div class="inner-item shadow">
+          <img src="./images/dog-img.jpg" class="d-block" alt="dog">
+          <div class="carousel-caption text-dark">
+            <h3 class="fs-2 text-body-emphasis">Pebbles, New York</h3>
+            <p>"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Pricing -->
     <section id="pricing"></section>
     <!-- Footer -->
