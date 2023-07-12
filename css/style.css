@@ -1,28 +1,84 @@
-.gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+#title {
+  background-color: #f8f9fa;
+  padding-top: 2.2%;
 }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+#title h1 {
+  font-weight: bold;
+  font-size: 310%;
+  margin-bottom: 40px; /* Add vertical spacing */
 }
 
-.icon-square {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.75rem;
+/* Custom button styles */
+.custom-primary-btn {
+  background-color: #ec5e6d;
+  color: #fff;
 }
 
-.profile-img {
-  height: 100px;
-  border-radius: 50%;
+.custom-secondary-btn {
+  background-color: #5cabde;
+  color: #fff;
+}
+
+/* Add space between button icons and text */
+.custom-primary-btn i,
+.custom-secondary-btn i {
+  margin-right: 0.5em;
+}
+
+.bg-custom-color {
+  background-color: #F8F9FA; /* Replace #ff0000 with your desired color */
+}
+
+.inner-item{
+position:relative;
+margin:100px 20px 20px;
+border-radius:20px;
+}
+
+.carousel-item img{
+width:150px;
+border-radius:50%;
+position:absolute;
+top:-75px; left:50%;
+transform:translateX(-50%);
+z-index:1;
+}
+
+.carousel-caption{
+position:relative;
+top:0;
+bottom:0;
+left:0;
+right:0;
+padding:100px 20px;
+}
+
+#testimonial {
+padding:50px;
+margin-bottom: 600px;
+}
+
+.btn-pricing {
+background-color: #EC5E6D; /* Replace with your desired background color */
+border-color: #EC5E6D; /* Replace with your desired border color */
+color: #FFFFFF; /* Replace with your desired text color */
+}
+
+.btn-pricingy:hover {
+background-color: #EC5E6D; /* Replace with your desired hover background color */
+border-color: #EC5E6D; /* Replace with your desired hover border color */
+color: #FFFFFF; /* Replace with your desired hover text color */
+}
+
+.dog-background-color {
+background-color: red;
+}
+
+.custom-button-width {
+width: 100%;
+}
+
+#footer {
+  margin-top: 10em;
 }
