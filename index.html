@@ -43,8 +43,6 @@
         background-color: #F8F9FA; /* Replace #ff0000 with your desired color */
       }
 
-      body{padding:50px;}
-
     .inner-item{
       position:relative;
       margin:100px 20px 20px;
@@ -67,6 +65,31 @@
       left:0;
       right:0;
       padding:100px 20px;
+    }
+
+    #testimonial {
+      padding:50px;
+      margin-bottom: 600px;
+    }
+
+    .btn-pricing {
+      background-color: #EC5E6D; /* Replace with your desired background color */
+      border-color: #EC5E6D; /* Replace with your desired border color */
+      color: #FFFFFF; /* Replace with your desired text color */
+    }
+
+    .btn-pricingy:hover {
+      background-color: #EC5E6D; /* Replace with your desired hover background color */
+      border-color: #EC5E6D; /* Replace with your desired hover border color */
+      color: #FFFFFF; /* Replace with your desired hover text color */
+    }
+
+    .dog-background-color {
+      background-color: red;
+    }
+
+    .custom-button-width {
+      width: 100%;
     }
 
     </style>
@@ -199,23 +222,89 @@
       </div>
     </section>
 
-
-
-    <!-- Testimonial -->
+        <!-- Testimonial -->
     <section id="testimonial">
-      <div class="carousel-item active mt-5">
-        <div class="inner-item shadow">
-          <img src="./images/dog-img.jpg" class="d-block" alt="dog">
-          <div class="carousel-caption text-dark">
-            <h3 class="fs-2 text-body-emphasis">Pebbles, New York</h3>
-            <p>"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</p>
+      <div class="container-fluid">
+        <div class="carousel-item active mt-5">
+          <div class="inner-item shadow">
+            <img src="./images/dog-img.jpg" class="d-block" alt="dog">
+            <div class="carousel-caption text-dark">
+              <h3 class="fs-2 text-body-emphasis">Pebbles, New York</h3>
+              <p>"I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof."</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Pricing -->
-    <section id="pricing"></section>
+
+
+        <!-- Pricing -->
+    <section id="pricing" class="mt-5">
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <div class="col-md-4">
+            <div class="card shadow-sm text-center">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Chihuahua</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-pricing custom-button-width">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm text-center">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Labrador</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-pricing custom-button-width">Get started</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm text-center">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Mastiff</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-pricing custom-button-width">Contact us</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    </section>
     <!-- Footer -->
     <section id="footer"></section>
 
